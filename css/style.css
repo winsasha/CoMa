@@ -1,0 +1,68 @@
+body{
+  background: url('../img/coffee-background.jpg');
+}
+/*.container{
+  background: rgb(139,69,19,.5);
+}*/ 
+.coffee-btn-group{
+  background: rgba(188, 143, 143, 0.7);
+  height:60px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size:2em;
+  border-radius:30px 0 0 30px;
+  font-weight: 500;
+  border:1px solid white;
+}
+.coffee-btn-group>span{
+  vertical-align: top;
+}
+.coffee-btn{
+  width:60px !important;
+  height:60px;
+  background: brown;
+  cursor:pointer;
+  border:1px solid #AF5A5A;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+}
+.coffee-btn:hover{
+  background: #800000;
+}
+.coffee-btn:active{
+  background: green;
+  box-shadow: inset 0 0 10px black;
+}
+#display{
+  width:100%;
+  height:200px;
+  background: black;
+  color:white;
+  border:5px groove DarkSlateGrey;
+}
+[src$='rub.jpg']{
+  cursor:pointer;
+  z-index:1;
+}
+[src$='rub.jpg']:active{
+  filter: contrast(1.5);
+}
+#change_box{
+  background: rgba(188, 143, 143, 0.9);
+  width:90%;
+  height:250px;
+  border: 4px groove DarkSlateGrey;
+  position:relative;
+}
+[src$='rub.png']{
+  width:60px;
+  cursor:pointer;
+  position:absolute;
+  left:0;
+  top:0;
+}
+#lock{
+  width:100%;
+  height:100vh;
+  position:absolute;
+  top:0;
+}
